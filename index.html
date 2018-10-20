@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Queens Music Festival</title>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<link href="CSS/style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width">
+    
+<!--Nav Script Sources-->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+<!--END Nav Script Sources-->    
+<!--NAV SCRIPT -->
+<script>(function ($) {
+  $(document).ready(function(){
+    
+	// hide .navbar first
+	$(".navbar").hide();
+	
+	// fade in .navbar
+	$(function () {
+		$(window).scroll(function () {
+            // set distance user needs to scroll before we fadeIn navbar
+			if ($(this).scrollTop() > 600) {
+				$('.navbar').fadeIn();
+			} else {
+				$('.navbar').fadeOut();
+			}
+		});
+
+	
+	});
+
+});
+      }(jQuery));</script>
+<!--END NAV SCRIPT-->
+<!-- SLIDER   -->
+    <link rel="stylesheet" href="nivo/nivo-slider.css" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+    <script src="nivo/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="nivo/themes/default/default.css" type="text/css" />
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider({
+                effect: 'fade',                 // Specify sets like: 'fold,fade,sliceDown'
+                animSpeed: 500,                 // Slide transition speed
+                pauseTime: 3000,                 // How long each slide will show
+                startSlide: 0,                     // Set starting Slide (0 index)
+                directionNav: true,             // Next & Prev navigation
+                controlNav: true,                 // 1,2,3... navigation
+                controlNavThumbs: false,         // Use thumbnails for Control Nav
+                pauseOnHover: true,             // Stop animation while hovering
+                manualAdvance: false,             // Force manual transitions
+                prevText: 'Prev',                 // Prev directionNav text
+                nextText: 'Next',                 // Next directionNav text
+                randomStart: false,             // Start on a random slide
+                beforeChange: function(){},     // Triggers before a slide transition
+                afterChange: function(){},         // Triggers after a slide transition
+                slideshowEnd: function(){},     // Triggers after all slides have been shown
+                lastSlide: function(){},         // Triggers when last slide is shown
+                afterLoad: function(){}         // Triggers when slider has loaded
+            });
+        });
+    </script>  
+<!--END SLIDER-->
+    
+</head>
+
+<body>
+    <div id="container">
+        <nav class="navbar navbar-default navbar-fixed-top " role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#Home">HOME</a></li>
+                <li><a href="#Lineup">LINEUP</a></li>
+                <li><a href="#Tickets">TICKETS</a></li>
+                <li><a href="#About">ABOUT</a></li>
+                  <li><a href="#Contact">CONTACT</a></li></ul>
+
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+
+        <div id="Home">
+            <header>
+                <div id="logo">
+                    <h2>MUSIC FESTIVAL. <br> MAY 27-30.QUEENS, NY</h2>
+                    <h1>QUEENS</h1>
+                    <h3>FEATURING THE MUSIC INDUSTRY'S <br>MOST RENOWNED FEMALE PREFORMERS. </h2>
+                </div>
+            </header>
+            <div id="bar"></div>
+                    <div id="daqueen"><img src="CSS/images/queen.png" width="150px" height="216px" alt="queen"></div>
+            <div id="smol"><img src="CSS/images/queen.png" alt="queen" width="109px" height="157px"></div>    
+            
+            <div id="HomeSlider">
+                <div id="slideshow"class="slider-wrapper theme-default">
+                    <div id="slider" class="nivoSlider">
+                        <img src="CSS/images/slide1.jpg" alt="God Save The Queens"/>
+                        <img src="CSS/images/slide2.jpg" alt="The Lineup Is Here"/>
+                        <img src="CSS/images/slide3.jpg" alt="Tickets On Sale Now"/>
+                    </div>
+                </div>
+            </div>
+            <div id="bottomtown"></div>
+        </div>
+        
+        <div id="Lineup">
+            <h1>2016  LINEUP</h1>
+            <div id="throne"><img src="CSS/images/throne.png"/></div>
+            <div id="stairs">
+                <div id="st1"><p>BEYONCE. NICKI MINAJ.</p></div>
+                <div id="st2"><p>RIHANNA. ADELE. LADY GAGA. HAIM.</p></div>
+                <div id="st3"><p>SIA. LORDE. LANA DEL REY. MILEY CYRUS. HALSEY.</p></div>
+                <div id="st4"><p>ARIANA GRANDE. SELENA GOMEZ. MADONNA. CARRIE UNDERWOOD.</p></div>
+                <div id="st5"><p>DEMI LOVATO. FIFTH HARMONY. ALESSIA CARA. AURORA. GRIMES. M.I.A. SHAKIRA.</p></div>
+                <div id="st6"><p>MISSY ELLIOTT. JENNIFER LOPEZ. PINK. JESSIE J. BJORK. ELLIE GOULDING. REGINA SPEKTOR. DAYA.</p></div>
+            </div>
+            <div id="featuredVid">
+                <h1>FEATURED VIDEO</h1>
+                <p><a href="https://vimeo.com/154783794">Beyonce - Formation (Dirty)</a>.</p>
+                <div id="test"><img src="CSS/images/videoside.png"></div>
+                <div id="vid" class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/154783794?color=ffffff&title=0&byline=0&portrait=0"></iframe>
+                </div>
+            
+            </div>
+        </div>
+        
+        <div id="Tickets">
+            <h1>TICKETS</h1>
+            <div id="GA">
+                <h2>GENERAL ADMISSION - 399 PLUS 1 CANNED GOOD</h2>
+                <p>Allows entrance into the venue and day parking lots all days. May visit camping areas. (Additional charge for international shipping.)</p>
+                <div class="buynow"><a href="http://www.ticketmaster.com">BUY NOW</a></div>
+            </div>
+            <div id="VIP">
+                <h2>VIP PASS - 899 PLUS 1 CANNED GOOD</h2>
+                <p>A VIP festival pass allows access into the venue, day parking lots and the TWO venue VIP areas all days. May also visit camping areas. </p>
+                <div class="buynow"><a href="http://www.ticketmaster.com">BUY NOW</a></div>
+            </div>
+            <div id="camping">
+                <h2>TENT CAMPING - 99</h2>
+                <p>10x15 tent camping spot. Everyone camping in this spot will need a festival pass.  Not valid unless purchased with a festival pass. No exceptions.</p>
+                <div class="buynow"><a href="http://www.ticketmaster.com">BUY NOW</a></div>
+            </div>
+        </div>
+        
+        <div id="About">
+            <h2>ABOUT</h2>
+            <div id="uptown"></div>
+            <div id="abt">
+                <p id="toppar">Held yearly in Flushing Meadows Corona Park, queens, ny, the queens music festival is an iconic 4 day event that brings together the most renowned female preformers in the music industry. </p>
+                <p id="bottompar">More than a concert, more than 4 days, queens Music Festival has provided over 3 billion canned goods since it's inception. Distributing them to homeless shelters and domestic centers throughout new york; feeding families in need for months. For years, the concert has required canned goods in addition to the price of admission, and it always will.</p>
+            </div>
+            <div id="btown"></div>
+        </div>
+        
+        <div id="Contact">
+            <h2>CONTACT</h2>
+            <h3>Volunteers:</h3>
+            <p>
+the Volunteer application for 2016 is now closed. All applications should expect to receive an email notification regarding the status of their application by February 10, 2016.</p>
+            <h3>Sponsorship:</h3>
+            <p>Interested in becoming a sponsor for the festival? We think you're great! Get in touch with us at sponsorship@queensfestival.com.</p>
+            <h3>General Questions:</h3>
+            <p>    
+Have a question or want to chat with the Qreew? Send us an email at info@queensfestival.com. </p>
+        </div>
+        <div id="lastcity"></div>
+        <div id="social">
+            <ul>
+                <a href="https://www.facebook.com"<li><img src="CSS/images/fb.png"></li></a>
+                <li>DON'T FORGET</li>
+                <a href="https://www.twitter.com"<li><img src="CSS/images/twit.png"></li></a>
+                <li>TO FOLLOW!</li>
+                <a href="https://www.instagram.com"<li><img src="CSS/images/insta.png"></li></a>
+            </ul>
+        </div>
+
+<!--  end container -->
+    </div> 
+
+</body>
+
+</html>

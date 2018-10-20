@@ -1,0 +1,646 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    background-color: #253c7e!important;  
+}
+#container{
+    margin: auto; /*CENTERS DIV*/
+    width: 100%;
+    max-width: 1200px;
+}
+header{ 
+    margin: auto;
+    max-width: 1500px;
+    background-image: url(images/headerbg.jpg);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 260px; 
+    
+}
+#logo{
+    padding-top: 50px;
+    margin: auto;
+    float:left;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+#logo h1{
+    font-family: 'urban_brush_zoneregular';
+    text-align: center;
+    font-size: 70px;
+    color: #f0bc3a;
+
+}
+#logo h3{
+    margin: auto;
+    font-family: 'trashhandregular';
+    width: 30%;
+    text-align: left;
+    color:#f0bc3a;
+    font-size: 20px;
+}
+#logo h2{
+    font-family: 'trashhandregular';
+    margin: auto;
+    width: 27%;
+    text-align: right;
+    color:#f0bc3a;
+    font-size: 20px;
+
+    
+}
+#bar{
+    margin: auto;
+    width: 100%;
+    height: 64px;
+    background-color: #f0bc3a;   
+    z-index: 10;
+}
+#daqueen{
+    position: absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: -150px;
+    z-index: 50;
+    text-align: center;
+
+}
+#smol{
+    display: none;
+}
+#HomeSlider{
+    width: 100%;
+
+}
+#slideshow{
+    width: 100%;
+}
+#bottomtown{
+    width: 100%;
+    height: 100px;
+    background-image: url(images/downtown.jpg);
+    background-repeat: repeat-x;
+    margin-top: -73px;
+    max-width: 1500px;
+}
+
+#Lineup{
+    width: 100%;
+    margin: auto;
+}
+#Lineup h1{
+    font-family: 'urban_brush_zoneregular';
+    font-size: 40px;
+    color: #f2bd3a;
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#stairs{
+    width: 100%;
+    margin: auto;
+}
+#st1, #st2, #st3, #st4, #st5, #st6{
+    margin: auto;
+    font-family: 'trashhandregular';
+    text-align: center;
+    height: 80px;
+}
+#st1, #st2 p{
+    padding-top: 10px;
+}
+#st3, #st4, #st5, #st6 p{
+    padding-top: 20px;
+}
+#st1{
+    color:#f0bc3a;
+    font-size: 46px;
+    background-color: white;
+    width: 44.125%;
+}
+#st2{
+    color:white;
+    font-size: 40px;
+    background-color: #f2bd3a;
+    width: 56.25%;
+}
+#st3{
+    color:#f0bc3a;
+    font-size: 36px;
+    background-color: white;
+    width: 68.5%;
+}
+#st4{
+    color:white;
+    font-size: 30px;
+    background-color: #f2bd3a;
+    width: 81.25%;
+}
+#st5{
+    color:#f0bc3a;
+    font-size: 30px;
+    background-color: white;
+    width: 89.125%;
+}
+#st6{
+    color:white;
+    font-size: 30px;
+    background-color: #f2bd3a;
+    width: 97.5%;
+}
+
+#throne{
+    width: 25%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+#throne img{
+    width: 100%;
+}
+#stairs{ 
+    width: 97%;
+    margin: auto;
+    margin-top: -60px;
+}
+#stairs img{
+    width: 100%;
+}
+
+#featuredVid{
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+#featuredVid h1{
+    padding-bottom: 15px;
+}
+#featuredVid p a{
+    font-family: 'trashhandregular';
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    text-decoration: none; 
+}
+#vid{
+    width: 70%;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+#test{
+    margin: auto;
+    padding-top: 10px;
+    position: absolute;
+}
+#test img{
+    width: 85%;
+    margin: auto;
+}
+
+#Tickets{
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+}
+#Tickets h1{
+    font-family: 'urban_brush_zoneregular';
+    font-size: 40px;
+    color: #f2bd3a;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+#Tickets #GA{
+    height: 249px;
+    width: 534px;
+    background-image: url(images/ticket1.png);
+    background-size: 534px 249px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#Tickets h2{
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'trashhandregular';
+    font-size: 25px;
+    color: #f2bd3a;  
+}
+#Tickets p{
+    margin: auto;
+    width: 70%;
+    font-family: 'trashhandregular';
+    font-size: 18px;
+    color: #f2bd3a;
+    text-align: center;
+}
+#Tickets #VIP{
+    height: 249px;
+    width: 534px;
+    background-image: url(images/ticket2.png);
+    background-size: 534px 249px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#Tickets #camping{
+    height: 249px;
+    width: 534px;
+    background-image: url(images/ticket4.png);
+    background-size: 534px 249px;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.buynow{
+    width: 100px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'trashhandregular';
+
+}
+.buynow a{
+    font-size: 22px;
+    color: #f2bd3a;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 2px solid #f2bd3a;
+
+}
+.buynow a:hover{
+    color: #253c7e;
+    text-decoration: none;
+    border-color:#253c7e;
+}
+
+#About{
+    width: 100%;
+    margin: auto;
+}
+#About h2{
+    font-family: 'urban_brush_zoneregular';
+    font-size: 40px;
+    color: #f2bd3a;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#abt{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-image: url(images/about.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#abt p{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-family: 'trashhandregular';
+    color: white;
+    font-size: 20px;
+}
+#abt #toppar{
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+#abt #bottompar{
+        padding-bottom: 50px;
+}
+#uptown{
+    width: 100%;
+    height: 100px;
+    background-image: url(images/uptown.jpg);
+    background-repeat: repeat-x;
+}
+#btown{
+    width: 100%;
+    height: 100px;
+    background-image: url(images/downtown.jpg);
+    background-repeat: repeat-x;
+    padding-bottom: 50px;
+
+}
+#lastcity{
+    width: 100%;
+    height: 100px;
+    background-image: url(images/uptown.jpg);
+    background-repeat: repeat-x;
+    margin-top: 120px;
+}
+#social{
+    text-align: center;
+    height: 100px;
+    width:100%;
+    margin: auto;
+    background-color:#f2bd3a;
+}
+#social ul{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#social li{
+    margin-top: 20px;
+    width: 10%;
+    font-family: 'urban_brush_zoneregular';
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    
+}
+#social img{
+    width: 30%;
+    margin-top: 17px;
+}
+
+#Contact h2{
+    font-family: 'urban_brush_zoneregular';
+    font-size: 40px;
+    color: #f2bd3a;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#Contact h3{
+    font-family: 'urban_brush_zoneregular';
+    font-size: 30px;
+    text-align: center;
+    font-family: 'trashhandregular';
+    color: white;
+    padding-bottom: 10px;
+}
+#Contact p{
+    margin: auto;
+    width: 60%;
+    font-family: 'trashhandregular';
+    color: #f2bd3a;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
+@font-face {
+    font-family: 'urban_brush_zoneregular';
+    src: url('urban_brush_zone-webfont.eot');
+    src: url('urban_brush_zone-webfont.eot?#iefix') format('embedded-opentype'),
+         url('urban_brush_zone-webfont.woff2') format('woff2'),
+         url('urban_brush_zone-webfont.woff') format('woff'),
+         url('urban_brush_zone-webfont.ttf') format('truetype'),
+         url('urban_brush_zone-webfont.svg#urban_brush_zoneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'trashhandregular';
+    src: url('trashhand-webfont.eot');
+    src: url('trashhand-webfont.eot?#iefix') format('embedded-opentype'),
+         url('trashhand-webfont.woff2') format('woff2'),
+         url('trashhand-webfont.woff') format('woff'),
+         url('trashhand-webfont.ttf') format('truetype'),
+         url('trashhand-webfont.svg#trashhandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'colors_of_autumnregular';
+    src: url('colors_of_autumn-webfont.eot');
+    src: url('colors_of_autumn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('colors_of_autumn-webfont.woff2') format('woff2'),
+         url('colors_of_autumn-webfont.woff') format('woff'),
+         url('colors_of_autumn-webfont.ttf') format('truetype'),
+         url('colors_of_autumn-webfont.svg#colors_of_autumnregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.navbar-header{
+    background-color: #f2bd3a !important;
+}
+/*main nav bar*/
+.navbar-default {
+  background-color: #f2bd3a;
+  font-family: 'trashhandregular';
+  font-size: 30px;
+}
+.navbar-default .navbar-text {
+  color: black!important;
+}
+/*nav text*/
+.navbar-default .navbar-nav  li  a {
+  color: white!important;
+  
+}
+
+/*hover main nav text*/
+.navbar-default .navbar-nav  li  a:hover,
+.navbar-default .navbar-nav  li  a:focus {
+  color: #ba2a42 !important;
+}
+/*need*/
+.navbar-default .navbar-nav  .active  a,
+.navbar-default .navbar-nav  .active  a:hover,
+.navbar-default .navbar-nav  .active  a:focus {
+  background-color: #f2bd3a !important;
+
+}
+/*?????*/
+.navbar-default .navbar-nav  .open  a,
+.navbar-default .navbar-nav  .open  a:hover,
+.navbar-default .navbar-nav  .open  a:focus {
+  color: white!important;
+  background-color: #ba2a42 !important;
+}
+/*dropdown bars border*/
+.navbar-default .navbar-toggle {
+  border-color: white!important;
+}
+/*hover drop down*/
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: white!important;
+}
+/*three bars*/
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ba2a42!important;
+}
+/*dropdown background*/
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  background-color: #f2bd3a !important;
+}
+.navbar-default .navbar-link {
+  color: red !important;
+}
+.navbar-default .navbar-link:hover {
+  color: red !important;
+}
+
+
+@media screen and (max-width: 943px){
+    #st4, #st5, #st6{
+        font-size: 25px;
+    }
+    
+}
+@media screen and (max-width: 785px) {
+    #container{
+        width: 100%;
+    }
+    #logo h3{
+        display: none;
+    }
+    #logo h2{
+        display: none;
+    }
+    #logo h1{
+        margin: auto;
+    }
+    #bar{
+        height: 30px;
+    }
+    #throne{
+        width: 35%;
+    }
+    #st1, #st2{
+        font-size: 30px;
+    }
+    #st3{
+        font-size: 27px;
+    }
+}
+  
+@media screen and (max-width: 630px) {
+    #container{
+        width: 100%;
+    }
+    #test img{
+        display: none;
+    }
+    #vid{
+        width: 100%;
+    }
+    #stairs{
+        width: 100%;
+    }
+    #st1, #st2, #st3, #st4, #st5{
+        width: 100%;
+        font-size: 26px;
+        height: 100px;
+    }
+    #st6{
+        width: 100%;
+        height: 100px;
+        font-size: 24px;
+    }
+    #st1, #st2, #st3, #st4{
+        padding-top: 30px;
+    }
+    #throne{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #container{
+        width: 100%;
+    }
+    #social li{
+        font-size: 12px;
+        margin-left: -15px;
+    }
+    #daqueen{
+        display: none;
+    }
+    #smol{
+        display: block;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-top: -100px;
+        position: absolute;
+        z-index: 12;
+    }
+    #Tickets #GA{
+        width: 100%;
+        background-size:0px 0px;
+        background-color: white;
+        border: 8px dotted #f2bd3a;
+        margin-bottom: 20px;
+    }
+    #Tickets #VIP{
+        width: 100%;
+        background-size:0px 0px;
+        background-color: white;
+        border: 8px dotted #f2bd3a;
+        margin-bottom: 20px;
+    }
+    #Tickets #camping{
+        width: 100%;
+        background-size:0px 0px;
+        background-color: white;
+        border: 8px dotted #f2bd3a;
+    }
+    #GA h2, #VIP h2, #camping h2{
+        padding-top: 10px;
+    }
+@media screen and (max-width: 370px) {
+    #st3, #st4, #st5, #st6{
+        height: 140px;
+    }
+    #Tickets #GA, #Tickets #VIP, #Tickets #camping{
+        height: 320px;
+    }
+}
