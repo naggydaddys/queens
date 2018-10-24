@@ -385,13 +385,14 @@ header{
     width:100%;
     margin: auto;
     background-color:#f2bd3a;
+    display: inline-flex;
 }
 #social ul{
     margin: auto;
     display: flex;
     justify-content: center;
 }
-#social li{
+#social p{
     margin-top: 20px;
     width: 10%;
     font-family: 'urban_brush_zoneregular';
@@ -644,3 +645,4 @@ header{
         height: 320px;
     }
 }
+
